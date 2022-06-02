@@ -9,6 +9,7 @@
 • [x] added button play {SUPPORT_CHANNEL}
 • [x] removed start
 • [x] playmode 
+• [x] added force subscribe channel
 ```
 
 # Credit For @TeamYukki
