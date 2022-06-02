@@ -19,7 +19,7 @@ from youtubesearchpython.__future__ import VideosSearch
 
 import config
 from KillerXMusic.utils.database import is_on_off
-from KillerxMusic.utils.formatters import time_to_seconds
+from KillerXMusic.utils.formatters import time_to_seconds
 
 
 async def shell_cmd(cmd):
