@@ -70,7 +70,7 @@
       },
       "UPSTREAM_REPO": {
         "description": "If you dont know this, Leave as it is",
-        "value": "https://github.com/Randi356/KillerXMusic",
+        "value": "https://github.com/Randi356/KillerX-Music",
         "required": true
       },
       "UPSTREAM_BRANCH": {
