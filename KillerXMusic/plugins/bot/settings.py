@@ -33,9 +33,9 @@ from KillerXMusic.utils.database import (add_nonadmin_chat,
                                        save_video_bitrate,
                                        set_playmode, set_playtype,
                                        suggestion_off, suggestion_on)
-from YukkiMusic.utils.decorators.admins import ActualAdminCB
-from YukkiMusic.utils.decorators.language import language, languageCB
-from YukkiMusic.utils.inline.settings import (
+from KillerXMusic.utils.decorators.admins import ActualAdminCB
+from KillerXMusic.utils.decorators.language import language, languageCB
+from KillerXMusic.utils.inline.settings import (
     audio_quality_markup, auth_users_markup,
     cleanmode_settings_markup, playmode_users_markup, setting_markup,
     video_quality_markup)
