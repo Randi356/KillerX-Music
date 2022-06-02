@@ -1,0 +1,8 @@
+name : Jerman
+
+general_1 : "Auf die Nachricht eines Benutzers antworten oder Benutzername/Benutzer-ID angeben"
+general_2 : "Fehler! Falsche Verwendung des Befehls."
+general_3 : "Beim Verarbeiten Ihrer Anfrage ist eine **Ausnahme aufgetreten**. \n\nAusnahmetyp:- {0}"
+general_4 : "Du bist ein anonymer Admin in dieser Chat-Gruppe!\nZurück zum Benutzerkonto von Admin-Rechten."
+general_5 : "Sie müssen Administrator mit Rechten zum Verwalten von Voice-Chat sein, um diese Aktion auszuführen."
+general_6 : "Bot streamt nicht im Voice-Chat."
