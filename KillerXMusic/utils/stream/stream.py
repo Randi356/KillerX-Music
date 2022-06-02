@@ -25,7 +25,7 @@ from KillerXMusic.utils.exceptions import AssistantErr
 from KillerXMusic.utils.inline.play import (stream_markup,
                                           telegram_markup)
 from KillerXMusic.utils.inline.playlist import close_markup
-from KillerXMusic.utils.pastebin import Yukkibin
+from KillerXMusic.utils.pastebin import KillerXbin
 from KillerXMusic.utils.stream.queue import put_queue, put_queue_index
 from KillerXMusic.utils.thumbnails import gen_thumb
 
@@ -98,7 +98,7 @@ async def stream(
                     )
                 except:
                     raise AssistantErr(_["play_16"])
-                await Yukki.join_call(
+                await KillerX.join_call(
                     chat_id, original_chat_id, file_path, video=status
                 )
                 await put_queue(
@@ -129,7 +129,7 @@ async def stream(
         if count == 0:
             return
         else:
-            link = await Yukkibin(msg)
+            link = await KillerXbin(msg)
             lines = msg.count("\n")
             if lines >= 17:
                 car = os.linesep.join(msg.split(os.linesep)[:17])
@@ -179,7 +179,7 @@ async def stream(
         else:
             if not forceplay:
                 db[chat_id] = []
-            await Yukki.join_call(
+            await KillerX.join_call(
                 chat_id, original_chat_id, file_path, video=status
             )
             await put_queue(
@@ -233,7 +233,7 @@ async def stream(
         else:
             if not forceplay:
                 db[chat_id] = []
-            await Yukki.join_call(
+            await KillerX.join_call(
                 chat_id, original_chat_id, file_path, video=None
             )
             await put_queue(
@@ -287,7 +287,7 @@ async def stream(
         else:
             if not forceplay:
                 db[chat_id] = []
-            await Yukki.join_call(
+            await KillerX.join_call(
                 chat_id, original_chat_id, file_path, video=status
             )
             await put_queue(
@@ -348,7 +348,7 @@ async def stream(
             n, file_path = await YouTube.video(link)
             if n == 0:
                 raise AssistantErr(_["str_3"])
-            await Yukki.join_call(
+            await KillerX.join_call(
                 chat_id, original_chat_id, file_path, video=status
             )
             await put_queue(
@@ -400,7 +400,7 @@ async def stream(
         else:
             if not forceplay:
                 db[chat_id] = []
-            await Yukki.join_call(
+            await KillerX.join_call(
                 chat_id,
                 original_chat_id,
                 link,
