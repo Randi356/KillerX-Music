@@ -7,7 +7,7 @@
 | en | English | Thanks to [TeamYukki](https://t.me/TeamYukki)
 | si | Sinhala  | Thanks to [Damantha](https://t.me/MrItzme) & [Supun](https://t.me/Supunma)
 | hi | Hindi  | Thanks to [TeamYukki](https://t.me/TeamYukki)
-
+| id | Indonesian | Thanks to [Randi356](https://t.me/FFmpegNotinstalled)
 
 ### We need your help in translating Yukki Music Bot. How to Contribute?
 
