@@ -17,7 +17,7 @@ from pyrogram.types import Voice, InlineKeyboardButton, InlineKeyboardMarkup
 
 import config
 from config import MUSIC_BOT_NAME, lyrical
-from YukkiMusic import app
+from KillerXMusic import app
 
 from ..utils.formatters import (convert_bytes, get_readable_time,
                                 seconds_to_min)
