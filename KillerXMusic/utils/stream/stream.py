@@ -1,9 +1,9 @@
 #
-# Copyright (C) 2021-2022 by TeamYukki@Github, < https://github.com/TeamYukki >.
+# Copyright (C) 2021-2022 by TeamKillerX@Github, < https://github.com/TeamKillerX >.
 #
-# This file is part of < https://github.com/TeamYukki/KillerXMusicBot > project,
+# This file is part of < https://github.com/TeamKillerX/KillerXMusicBot > project,
 # and is released under the "GNU v3.0 License Agreement".
-# Please see < https://github.com/TeamYukki/KillerXMusicBot/blob/master/LICENSE >
+# Please see < https://github.com/TeamKillerX/KillerXMusicBot/blob/master/LICENSE >
 #
 # All rights reserved.
 
@@ -15,7 +15,7 @@ from pyrogram.types import InlineKeyboardMarkup
 
 import config
 from KillerXMusic import Carbon, YouTube, app
-from KillerXMusic.core.call import Yukki
+from KillerXMusic.core.call import KillerX
 from KillerXMusic.misc import db
 from KillerXMusic.utils.database import (add_active_chat,
                                        add_active_video_chat,
@@ -49,7 +49,7 @@ async def stream(
         if not await is_video_allowed(chat_id):
             raise AssistantErr(_["play_7"])
     if forceplay:
-        await Yukki.force_stop_stream(chat_id)
+        await KillerX.force_stop_stream(chat_id)
     if streamtype == "playlist":
         msg = f"{_['playlist_16']}\n\n"
         count = 0
