@@ -45,6 +45,16 @@ screen -S killerx
 
 bash start
 ```
+# HOW TO PLAY MUSIC 
+
+| Commad | quotes| | 
+|-|-------|-------|
+| /play  |        | 
+| /vplay |        | 
+| /cplay |        | 
+| /playforce|     | 
+
+check modules plugin commad
 
 
 
