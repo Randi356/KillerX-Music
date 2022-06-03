@@ -4,7 +4,7 @@
 # NEW UPDATED
 ```
 • [x] language Sunda
-• [x] alanguage Indonesian
+• [x] language Indonesian
 • [x] language Jerman
 • [x] button play {SUPPORT_CHANNEL}
 • [x] removed start not work /start
