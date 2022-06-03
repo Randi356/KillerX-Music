@@ -1,15 +1,16 @@
 # KillerXMusic
-[x][Rendy](https://github.com/Randi356/KillerX-Music) (OWNER ONLY)
+[x][KillerXMusic](https://github.com/Randi356/KillerX-Music) (OWNER ONLY)
 
 # NEW UPDATED
 ```
-• [x] added language Sunda
-• [x] added language Indonesian
-• [x] added language Jerman
-• [x] added button play {SUPPORT_CHANNEL}
-• [x] removed start
+• [x] language Sunda
+• [x] alanguage Indonesian
+• [x] language Jerman
+• [x] button play {SUPPORT_CHANNEL}
+• [x] removed start not work /start
 • [x] playmode 
-• [x] added force subscribe channel
+• [x] force subscribe channel
+• [x] support video
 ```
 
 ## 🖇 Generating Pyrogram String Session
@@ -21,7 +22,12 @@
 
 ## 🚀 Heroku Deployment
 
+
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/Randi356/KillerX-Music)
+
+# SCREENSHOT 
+![Screenshot_20220603-110840_Nekogram~01](https://user-images.githubusercontent.com/63757267/171784392-ded5a455-1dbf-42c1-aa56-3cf078551bae.png)
+
 
 # TUTORIAL VPS
 ```
@@ -58,5 +64,6 @@ check modules plugin commad
 
 
 
-# Credit For @TeamYukki
-• shikar
+# Credits For 
+* • [x] [Shikar](https://t.me/TeamYukki) developer 
+* • [x] [Rendy](https://t.me/FFmpegNotInstalled) coding
