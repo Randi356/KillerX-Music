@@ -14,6 +14,25 @@
 • [x] support video
 ```
 
+## HOW TO REMOVE MODULES START 
+
+1. KillerXMusic/plugins/bot/start.py
+
+**this remove** `start.py`
+
+2. KillerXMusic/plugins/bot/settings.py
+
+**this remove** `from KillerXMusic.utils.inline.start import private_panel`
+
+3. KillerXMusic/ultils/inline/init.py
+
+**this remove** `from .start import *`
+
+4. KillerXMusic/ultils/inline/start.py
+
+**this remove** `start.py`
+
+
 ## 🖇 Generating Pyrogram String Session
 
 - Generate a Pyrogram String Session via [Replit](https://replit.com/@Randi356/Vegeta-String)
