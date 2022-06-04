@@ -1,5 +1,5 @@
 # KillerXMusic
-[x][KillerXMusic](https://github.com/Randi356/KillerX-Music) (OWNER ONLY)
+[x][KillerXMusic] https://github.com/Randi356/KillerX-Music (OWNER ONLY)
 
 # NEW UPDATED
 ```
