@@ -8,7 +8,7 @@
 • [x] language Indonesian
 • [x] language Jerman
 • [x] button play {SUPPORT_CHANNEL}
-• [x] removed start not work /start
+• [x] supported /start
 • [x] playmode 
 • [x] force subscribe channel
 • [x] support video
