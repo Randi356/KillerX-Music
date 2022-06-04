@@ -10,6 +10,7 @@
  from typing import Union
 
  from pyrogram.types import InlineKeyboardButton
+ from KillerXMusic import app
 
  from config import (
     GITHUB_REPO, 
@@ -17,7 +18,6 @@
     SUPPORT_GROUP, 
     START_IMG_URL
 ) 
-#from KillerXMusic import app
 
 
 def start_pannel(_):
