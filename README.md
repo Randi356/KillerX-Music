@@ -23,7 +23,7 @@
 ## 🚀 Heroku Deployment
 
 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/Randi356/KillerX-Music)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://deploy-azure.vercel.app/?src=Randi356/KillerX-Music)
 
 # SCREENSHOT 
 ![Screenshot_20220603-110840_Nekogram~01](https://user-images.githubusercontent.com/63757267/171784392-ded5a455-1dbf-42c1-aa56-3cf078551bae.png)
@@ -65,6 +65,8 @@ check modules plugin commad
 
 
 
-# Credits For 
-* • [x] [Shikar](https://t.me/TeamYukki) developer 
-* • [x] [Rendy](https://t.me/FFmpegNotInstalled) coding
+# Credits
+```
+* • [x] [Shikar] https://t.me/TeamYukki developer 
+* • [x] [Rendy] https://t.me/FFmpegNotInstalled coding
+```
