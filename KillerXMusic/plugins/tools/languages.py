@@ -78,6 +78,10 @@ def lanuages_keyboard(_):
            text="🇩🇪 Jerman",
            callback_data=f"languages:jer",
         ),
+        InlineKeyboardButton(
+           text="🇯🇵 Japan",
+           callback_data=f"languages:jp",
+        ),
     )
     keyboard.row(
         InlineKeyboardButton(
