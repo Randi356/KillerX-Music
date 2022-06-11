@@ -53,7 +53,9 @@ def stream_markup_timer(_, videoid, chat_id, played, dur):
                 text=_["PL_B_3"], switch_inline_query_current_chat=""
             ),
         ],
-        [
+        [   InlineKeyboardButton(
+                text=_["S_B_6"], url=f"https://github.com/Randi356/KillerX-Music",
+            ),
             InlineKeyboardButton(
                 text=_["CLOSEMENU_BUTTON"], callback_data="close"
             )
