@@ -78,26 +78,51 @@
 
 # TUTORIAL VPS
 ```
-1. sudo apt-get update && sudo apt-get upgrade -y
-2. sudo apt-get install python3-pip ffmpeg -y
-3. sudo pip3 install -U pip
-4. sudo apt-get install screen -y
-5. curl -fssL https://deb.nodesource.com/setup_17.x | sudo -E bash - && sudo apt-get install nodejs -y && npm i -g npm
-6. pip3 install --ignore-installed PyYAML 
-7. git clone https://github.com/Randi356/KillerX-Music &&  cd KillerX-Music
-8. pip3 install -U -r requirements.txt
-9. cp sample.env .env # Edit .env with your vars
-10. vi .env # Editing Vars
+[NEW] KILLERX-MUSIC DOCKER VPS UPDATED
 
-Edit .env with your values or you can simple copy a config from here and paste it to your notepad, then edit and paste there.
-Press I button on keyboard to start editing.
-Press Ctrl + C  once you are done with editing vars and type :wq to save .env or :qa to exit editing.
+1. sudo apt-get update -y && sudo apt-get upgrade -y
 
-Finally Run KillerX Music Bot
+2. sudo apt-get install nano -y
 
-screen -S killerx
+3. sudo apt-get install screen -y
 
-bash start
+4. sudo apt-get install docker.io -y
+
+5. sudo apt-get install python -y && sudo apt-get install python3-pip
+
+6. sudo systemctl start docker
+
+7. sudo systemctl enable docker
+
+8. git clone https://github.com/Randi356/KillerX-Music
+
+9. cd KillerX-Music
+
+10. cp sample.env .env
+
+11. nano .env
+
+12. ctrl s + x
+
+13. screen -S killerx
+
+14. docker build -t killerx-music .
+
+15. docker run -v $(pwd)data:/app/data --rm -itd killerx-music
+
+Final Run KillerX Music
+
+16. bash start
+
+17. ctrl a + d
+
+[ English ]
+• without installing requirements.txt
+[ Indonesia ]
+• tanpa menginstal requirements.txt
+
+• CREDITS
+@FFmpegNotInstalled
 ```
 # HOW TO PLAY MUSIC 
 
