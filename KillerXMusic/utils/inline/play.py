@@ -53,7 +53,8 @@ def stream_markup_timer(_, videoid, chat_id, played, dur):
                 text=_["PL_B_3"], switch_inline_query_current_chat=""
             ),
         ],
-        [   InlineKeyboardButton(
+        [  
+            InlineKeyboardButton(
                 text=_["S_B_6"], url=f"https://github.com/Randi356/KillerX-Music",
             ),
             InlineKeyboardButton(
@@ -71,6 +72,12 @@ def telegram_markup_timer(_, chat_id, played, dur):
             InlineKeyboardButton(
                 text=f"{played} {bar} {dur}",
                 callback_data="GetTimer",
+            )
+        ],
+        [   
+            InlineKeyboardButton(
+                text=_["S_B_5"],
+                url=f"https://t.me/{BOT_USERNAME}?startgroup=true",
             )
         ],
         [
