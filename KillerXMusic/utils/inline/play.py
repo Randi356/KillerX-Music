@@ -41,8 +41,8 @@ def stream_markup_timer(_, videoid, chat_id, played, dur):
         ],
         [
             InlineKeyboardButton(
-                text=_["S_B_5"], url=f"https://t.me/{BOT_USERNAME}?startgroup=true",
-            )
+                text=_["S_B_5"], url=f"https://t.me/takehito_bot?startgroup=true",
+            ),
         ],
         [
             InlineKeyboardButton(
@@ -73,10 +73,7 @@ def telegram_markup_timer(_, chat_id, played, dur):
                 callback_data="GetTimer",
             )
         ],
-        [   
-            InlineKeyboardButton(
-                text=_["S_B_10"], url=f"https://t.me/RendyProjects",
-            ),
+        [
             InlineKeyboardButton(
                 text=_["CLOSEMENU_BUTTON"], callback_data="close"
             ),
@@ -99,9 +96,6 @@ def track_markup(_, videoid, user_id, channel, fplay):
         ],
         [
             InlineKeyboardButton(
-                text=_["S_B_6"], url=f"https://github.com/Randi356/KillerX-Music",
-            ),
-            InlineKeyboardButton(
                 text=_["CLOSE_BUTTON"],
                 callback_data=f"forceclose {videoid}|{user_id}",
             )
@@ -114,11 +108,6 @@ def stream_markup(_, videoid):
     buttons = [
         [
             InlineKeyboardButton(
-                text=_["S_B_5"], url=f"https://t.me/{BOT_USERNAME}?startgroup=true",
-            )
-        ],
-        [
-            InlineKeyboardButton(
                 text=_["PL_B_2"],
                 callback_data=f"add_playlist {videoid}",
             ),
@@ -129,6 +118,11 @@ def stream_markup(_, videoid):
             ),
             InlineKeyboardButton(
                 text=_["PL_B_3"], switch_inline_query_current_chat=""
+            ),
+        ],
+        [
+            InlineKeyboardButton(
+                text=_["S_B_5"], url=f"https://t.me/takehito_bot?startgroup=true",
             ),
         ],
         [
