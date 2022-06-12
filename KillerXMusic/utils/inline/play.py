@@ -122,6 +122,12 @@ def stream_markup(_, videoid):
         ],
         [
             InlineKeyboardButton(
+                text="「Sᴇᴀʀᴄʜ Lʏʀɪᴄs」",
+                callback_data=f"lyrics {videoid}|{user_id}",
+            ),
+        ],
+        [
+            InlineKeyboardButton(
                 text=_["S_B_5"], url=f"https://t.me/takehito_bot?startgroup=true",
             ),
         ],
