@@ -104,7 +104,7 @@ def track_markup(_, videoid, user_id, channel, fplay):
     return buttons
 
 
-def stream_markup(_, videoid, user_id):
+def stream_markup(_,videoid):
     buttons = [
         [
             InlineKeyboardButton(
@@ -118,12 +118,6 @@ def stream_markup(_, videoid, user_id):
             ),
             InlineKeyboardButton(
                 text=_["PL_B_3"], switch_inline_query_current_chat=""
-            ),
-        ],
-        [
-            InlineKeyboardButton(
-                text=_["lyrics_5"],
-                callback_data=f"lyrics {videoid}|{user_id}",
             ),
         ],
         [
