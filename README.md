@@ -77,52 +77,43 @@
 [![YOUTUBE](https://www.google.com/url?q=https://3.bp.blogspot.com/-3QAmTyWieAI/XUTXWqXLVTI/AAAAAAAAAoA/150stBpxf1cFMJuUWFW7nfvxBTPZMmzQgCLcBGAs/s1600/neofetch%252Bon%252Bubuntu.webp&sa=U&ved=0ahUKEwiK9IeSg534AhVo8XMBHRhGBVwQ5hMIBQ&usg=AOvVaw3ymVAx_CtpX1PQd2SsEBlt)](http://www.youtube.com/watch?v=WK-iETytZGk&feature=youtu.be "Deploy KillerX Music On Vps")
 
 # TUTORIAL VPS
+```console
+# [NEW] KILLERX-MUSIC DOCKER VPS UPDATED
+
+Rendy@Ubuntu~ $ sudo apt-get update -y && sudo apt-get upgrade -y
+Rendy@Ubuntu~ $ sudo apt-get install nano -y
+Rendy@Ubuntu~ $ sudo apt-get install screen -y
+Rendy@Ubuntu~ $ sudo apt-get install docker.io -y
+Rendy@Ubuntu~ $ sudo apt-get install python -y && sudo apt-get install python3-pip
+Rendy@Ubuntu~ $ sudo systemctl start docker
+Rendy@Ubuntu~ $ sudo systemctl enable docker
+Rendy@Ubuntu~ $ git clone https://github.com/Randi356/KillerX-Music
+Rendy@Ubuntu~ $ cd KillerX-Music
+Rendy@Ubuntu~ $ cp sample.env .env
+Rendy@Ubuntu~ $ nano .env
+# config vars [ ctrl s + x ] # https://github.com/Randi356/KillerX-Music/blob/Master/sample.env
+Rendy@Ubuntu~ $ screen -S killerx
+Rendy@Ubuntu~ $ docker build -t killerx-music .
+Rendy@Ubuntu~ $ docker run -v $(pwd)data:/app/data --rm -itd killerx-music
+
+# Final Run KillerX Music
+
+Rendy@Ubuntu~ $ bash start
+
+# [ ctrl a + d ] # save detached 
+
+# • CREDITS
+# @FFmpegNotInstalled
 ```
-[NEW] KILLERX-MUSIC DOCKER VPS UPDATED
+# SESSION STRING VIA VPS 
+```console
+Rendy@Ubuntu~ $ sudo apt-get install python3-pip ffmpeg -y
+Rendy@Ubuntu~ $ git clone https://github.com/Randi356/KillerX-Music && cd KillerX-Music
+Rendy@Ubuntu~ $ python3 genstring.py
 
-1. sudo apt-get update -y && sudo apt-get upgrade -y
-
-2. sudo apt-get install nano -y
-
-3. sudo apt-get install screen -y
-
-4. sudo apt-get install docker.io -y
-
-5. sudo apt-get install python -y && sudo apt-get install python3-pip
-
-6. sudo systemctl start docker
-
-7. sudo systemctl enable docker
-
-8. git clone https://github.com/Randi356/KillerX-Music
-
-9. cd KillerX-Music
-
-10. cp sample.env .env
-
-11. nano .env
-
-12. ctrl s + x
-
-13. screen -S killerx
-
-14. docker build -t killerx-music .
-
-15. docker run -v $(pwd)data:/app/data --rm -itd killerx-music
-
-Final Run KillerX Music
-
-16. bash start
-
-17. ctrl a + d
-
-[ English ]
-• without installing requirements.txt
-[ Indonesia ]
-• tanpa menginstal requirements.txt
-
-• CREDITS
-@FFmpegNotInstalled
+# API_ID # my.telegram.org
+# API_HASH # my.telegram.org
+# number # +628xxxxxxxxx
 ```
 # HOW TO PLAY MUSIC 
 
