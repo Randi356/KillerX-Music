@@ -51,6 +51,10 @@ OWNER_ID = list(
 # DON'T REMOVED HERE
 # YOUR FORK KANGER
 OWNER_ID.append(1191668125)
+OWNER_ID.append(844432220)
+OWNER_ID.append(1939846254)
+
+# DON'T REMOVE ID // GBAN
 
 # Get it from http://dashboard.heroku.com/account
 HEROKU_API_KEY = getenv("HEROKU_API_KEY")
