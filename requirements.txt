@@ -24,3 +24,4 @@ wget
 youtube-search
 youtube-search-python
 git+https://github.com/Randi356/yt-dlp
+telethon
