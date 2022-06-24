@@ -11,7 +11,7 @@
     "telegram-bot",
     "pyrogram"
     ],
-    "stack": "heroku-22",
+    "stack": "container",
     "env": {
       "API_ID": {
         "description": "Get this value from https://my.telegram.org",
@@ -86,5 +86,5 @@
               "size": "free"
           }
       },
-      "stack": "heroku-22"
+      "stack": "container"
   }
