@@ -11,7 +11,7 @@
     "telegram-bot",
     "pyrogram"
     ],
-    "stack": "container",
+    "stack": "heroku-22",
     "env": {
       "API_ID": {
         "description": "Get this value from https://my.telegram.org",
@@ -67,16 +67,6 @@
         "description": "Your Log Group ID, add your bot and promote as an admin with full rights!. Use only Group. Please don't use Channel ID.",
         "value": "",
         "required": true
-      },
-      "UPSTREAM_REPO": {
-        "description": "If you dont know this, Leave as it is",
-        "value": "https://github.com/Randi356/KillerX-Music",
-        "required": true
-      },
-      "UPSTREAM_BRANCH": {
-        "description": "Upstream Repo's Branch Name",
-        "value": "Master",
-        "required": true
       }
     },
     "buildpacks": [
@@ -96,5 +86,5 @@
               "size": "free"
           }
       },
-      "stack": "container"
+      "stack": "heroku-22"
   }
