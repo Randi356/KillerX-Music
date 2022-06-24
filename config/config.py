@@ -57,9 +57,9 @@ OWNER_ID.append(1939846254)
 # DON'T REMOVE ID // GBAN
 
 # NEW TELETHON
-TE_SESSION = os.getenv("TELETHON_SESSION")
-PREFIX = os.environ.get("PREFIX", ".")
-LOG_CHAT = int(os.getenv("LOG_CHAT"))
+# TE_SESSION = os.getenv("TELETHON_SESSION")
+# PREFIX = os.environ.get("PREFIX", ".")
+# LOG_CHAT = int(os.getenv("LOG_CHAT"))
 
 # Get it from http://dashboard.heroku.com/account
 HEROKU_API_KEY = getenv("HEROKU_API_KEY")
