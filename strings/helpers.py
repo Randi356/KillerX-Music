@@ -149,7 +149,7 @@ HELP_5 = """🔰**<u>ADD & REMOVE SUDO USERS :</u>**
 👤**<u>GBAN FUNCTION:</u>**
 /gban [Username or Reply to a user] - Gban a user from bot's served chat and stop him from using your bot.
 /ungban [Username or Reply to a user] - Remove a user from Bot's gbanned List and allow him for using your bot
-/gbannedusers - Check Gbanned Users Lists
+/listgban - Check Gbanned Users Lists
 
 🎥**<u>VIDEOCALLS FUNCTION:</u>**
 /set_video_limit [Number of Chats] - Set a maximum Number of Chats allowed for Video Calls at a time. Default to 3 chats.
