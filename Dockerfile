@@ -4,7 +4,7 @@ RUN apt-get update -y && apt-get upgrade -y \
     && apt-get install -y --no-install-recommends ffmpeg \
     && apt-get clean \
     && rm -rf /var/lib/apt/lists/*
-RUN git clone -b Master https://github.com/Randi356/KillerX-Music/
+RUN git clone -b dev https://github.com/Randi356/KillerX-Music/
 COPY . /app/
 WORKDIR /app/
 RUN python3 -m pip install --upgrade pip
