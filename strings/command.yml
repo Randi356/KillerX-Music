@@ -109,4 +109,4 @@ ACTIVEVIDEO_COMMAND : ["activevideo"]
 #Gban Commands
 GBAN_COMMAND : ["gban"]
 UNGBAN_COMMAND : ["ungban"]
-GBANNED_COMMAND : ["gbannedusers"]
+GBANNED_COMMAND : ["listgban"]
