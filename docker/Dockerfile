@@ -9,5 +9,5 @@ WORKDIR /app/
 RUN python3 -m pip install --upgrade pip
 RUN pip3 install --upgrade pip setuptools
 RUN pip install --ignore-installed PyYAML 
-RUN pip3 install -r https://github.com/Randi356/KillerX-Music/blob/Master/requirements.txt
+RUN pip3 install -r https://raw.githubusercontent.com/Randi356/KillerX-Music/Master/requirements.txt
 CMD bash start
