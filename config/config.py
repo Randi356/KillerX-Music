@@ -72,7 +72,10 @@ UPSTREAM_REPO = getenv(
     "UPSTREAM_REPO",
     b64decode("aHR0cHM6Ly9naXRodWIuY29tL1JhbmRpMzU2L0tpbGxlclgtTXVzaWM=").decode("utf-8"),
 )
-UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "Master")
+UPSTREAM_BRANCH = getenv(
+    "UPSTREAM_BRANCH",
+    b64decode("ZGV2").decode("utf-8"),
+)
 
 # GIT TOKEN ( if your edited repo is private)
 GIT_TOKEN = getenv("GIT_TOKEN", "")
