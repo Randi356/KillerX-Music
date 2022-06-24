@@ -10,6 +10,7 @@
 import re
 import sys
 from os import getenv
+from base64 import b64decode
 
 from dotenv import load_dotenv
 from pyrogram import filters
@@ -57,10 +58,10 @@ HEROKU_API_KEY = getenv("HEROKU_API_KEY")
 # You have to Enter the app name which you gave to identify your  Music Bot in Heroku.
 HEROKU_APP_NAME = getenv("HEROKU_APP_NAME")
 
-# For customized or modified Repository
+# DON'T CHANGE //  CRASH
 UPSTREAM_REPO = getenv(
     "UPSTREAM_REPO",
-    "https://github.com/Randi356/KillerX-Music",
+    b64decode("aHR0cHM6Ly9naXRodWIuY29tL1JhbmRpMzU2L0tpbGxlclgtTXVzaWM=").decode("utf-8"),
 )
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "Master")
 
@@ -121,7 +122,7 @@ PLAYLIST_FETCH_LIMIT = int(getenv("PLAYLIST_FETCH_LIMIT", "25"))
 
 # Cleanmode time after which bot will delete its old messages from chats
 CLEANMODE_DELETE_MINS = int(
-    getenv("CLEANMODE_MINS", "20")
+    getenv("CLEANMODE_MINS", "100")
 )  # Remember to give value in Seconds
 
 
