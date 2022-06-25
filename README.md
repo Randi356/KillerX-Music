@@ -126,10 +126,12 @@ Rendy@Ubuntu~ $ python3 genstring.py
 
 check modules plugin commad
 
-
-
+# ORIGINAL REPO YUKKI NEW VERSION
+```
+Links : github.com/TeamYukki/YukkiMusicBot
+```
 # Credits
-```
-* • [x] [Shikar] https://t.me/TeamYukki developer 
-* • [x] [Rendy] https://t.me/FFmpegNotInstalled coding
-```
+
+* • [x] dev [Shikar](https://t.me/TeamYukki) YukkiMusicBot
+* • [x] coding [Rendy](https://t.me/FFmpegNotInstalled) KillerX-Music
+
