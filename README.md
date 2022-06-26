@@ -15,7 +15,7 @@
 <a href="https://github.com/Randi356">
   <img align="left" alt="GitHub" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@3.5.0/icons/github.svg" />
 </a>
-<a href="https://wa.me/+923137119351">
+<a href="https://wa.me/">
   <img align="left" alt="whatsapp" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@3.5.0/icons/whatsapp.svg" />
 </a>
 <br/>
