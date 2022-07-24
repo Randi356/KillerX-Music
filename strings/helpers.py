@@ -147,8 +147,8 @@ HELP_5 = """🔰**<u>ADD & REMOVE SUDO USERS :</u>**
 /blockedusers - Check blocked Users Lists
 
 👤**<u>GBAN FUNCTION:</u>**
-/gban [Username or Reply to a user] - Gban a user from bot's served chat and stop him from using your bot.
-/ungban [Username or Reply to a user] - Remove a user from Bot's gbanned List and allow him for using your bot
+/mgban [Username or Reply to a user] - Gban a user from bot's served chat and stop him from using your bot.
+/mungban [Username or Reply to a user] - Remove a user from Bot's gbanned List and allow him for using your bot
 /listgban - Check Gbanned Users Lists
 
 🎥**<u>VIDEOCALLS FUNCTION:</u>**
