@@ -67,6 +67,16 @@
         "description": "Your Log Group ID, add your bot and promote as an admin with full rights!. Use only Group. Please don't use Channel ID.",
         "value": "",
         "required": true
+      },
+      "SUPPORT_CHANNEL": {
+        "description": "support channel",
+        "value": "https://t.me/rendyprojects",
+        "required": true
+      },
+      "BOT_USERNAME": {
+        "description": "botfather without @",
+        "value": "takehito_bot",
+        "required": true
       }
     },
     "buildpacks": [
