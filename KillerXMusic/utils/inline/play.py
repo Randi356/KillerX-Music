@@ -10,6 +10,7 @@
 import random
 
 from pyrogram.types import InlineKeyboardButton
+from config import SUPPORT_CHANNEL, BOT_USERNAME
 
 selections = [
     "▮▮▮▮▮▮▮▮",
@@ -41,12 +42,12 @@ def stream_markup_timer(_, videoid, chat_id, played, dur):
         ],
         [
             InlineKeyboardButton(
-                text=_["S_B_5"], url=f"https://t.me/takehito_bot?startgroup=true",
+                text=_["S_B_5"], url=f"https://t.me/{BOT_USERNAME}?startgroup=true",
             ),
         ],
         [
             InlineKeyboardButton(
-                text=_["S_B_10"], url=f"https://t.me/RendyProjects",
+                text=_["S_B_10"], url=f"{SUPPORT_CHANNEL}",
             ),
             InlineKeyboardButton(
                 text=_["PL_B_3"], switch_inline_query_current_chat=""
@@ -114,7 +115,7 @@ def stream_markup(_, videoid):
         ],
         [
             InlineKeyboardButton(
-                text=_["S_B_10"], url=f"https://t.me/RendyProjects",
+                text=_["S_B_10"], url=f"{SUPPORT_CHANNEL}",
             ),
             InlineKeyboardButton(
                 text=_["PL_B_3"], switch_inline_query_current_chat=""
@@ -122,7 +123,7 @@ def stream_markup(_, videoid):
         ],
         [
             InlineKeyboardButton(
-                text=_["S_B_5"], url=f"https://t.me/takehito_bot?startgroup=true",
+                text=_["S_B_5"], url=f"https://t.me/{BOT_USERNAME}?startgroup=true",
             ),
         ],
         [
